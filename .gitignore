@@ -118,3 +118,6 @@ dmypy.json
 # Pycharm
 .idea
 *.iml
+
+# Test files
+test-files

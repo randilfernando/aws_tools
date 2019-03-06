@@ -5,7 +5,6 @@ from awscli.clidriver import create_clidriver
 def run_command(args):
     old_env = dict(os.environ)
     try:
-
         # Environment
         env = os.environ.copy()
         env['LC_CTYPE'] = u'en_US.UTF'
